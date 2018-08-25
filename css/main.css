@@ -1,0 +1,25 @@
+/*Cascading Stylesheets*/
+/*CSS selector*/
+
+h1{
+    /* CSS Property: value; */
+    color:red;
+}
+
+p{
+    color:blue;
+}
+
+/* this selects ALL buttons on my page */
+button{
+    /* changes background color */
+    background-color: tomato;
+    color:white;
+    /*this eliminates the border*/
+    border:none;
+    padding:20px 30px;
+    font-weight:bold;
+    text-transform:uppercase;
+    /*this adds a shadow behind the button*/
+    box-shadow: -2px 5px 5px grey;
+}
